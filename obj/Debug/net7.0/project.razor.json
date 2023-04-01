@@ -1,0 +1,56 @@
+{
+  "SerializedFilePath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/obj/Debug/net7.0/project.razor.json",
+  "FilePath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/AD2-WEB-APP.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "6.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 1100
+  },
+  "RootNamespace": "AD2_WEB_APP",
+  "Documents": [
+    {
+      "FilePath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/Pages/_ViewStart.cshtml",
+      "TargetPath": "Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/Pages/Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/Pages/Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/Pages/Shared/_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.3"
+}

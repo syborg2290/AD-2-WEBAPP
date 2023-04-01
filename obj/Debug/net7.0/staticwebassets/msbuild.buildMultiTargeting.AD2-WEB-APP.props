@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/AD2-WEB-APP.props" />
+</Project>
