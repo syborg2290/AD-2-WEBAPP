@@ -19,17 +19,14 @@ public class SeriesService : ISeriesService
 {
     private DataContext _context;
     private readonly IMapper _mapper;
-    public readonly IConfiguration configuration;
 
     public SeriesService(
         DataContext context,
-        IConfiguration Configuration,
         IMapper mapper
         )
     {
         _context = context;
         _mapper = mapper;
-        configuration = Configuration;
     }
 
 

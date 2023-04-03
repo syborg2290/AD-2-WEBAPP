@@ -40,7 +40,7 @@ var builder = WebApplication.CreateBuilder(args);
     services.AddScoped<IItemService, ItemService>();
     services.AddScoped<IOrderItemService, OrderItemService>();
     services.AddScoped<IPaymentService, PaymentService>();
-    services.AddScoped<IUserService, UserService>();
+    services.AddScoped<ISeriesService, SeriesService>();
 
     builder.Services.AddAuthentication(opt =>
 {
