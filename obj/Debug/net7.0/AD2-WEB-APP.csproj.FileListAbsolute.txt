@@ -57,62 +57,121 @@
 /home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/obj/Debug/net7.0/AD2-WEB-APP.pdb
 /home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/obj/Debug/net7.0/AD2-WEB-APP.genruntimeconfig.cache
 /home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/obj/Debug/net7.0/ref/AD2-WEB-APP.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\refint\AD2-WEB-APP.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.pdb
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\appsettings.Development.json
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\appsettings.json
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\AD2-WEB-APP.staticwebassets.runtime.json
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\AD2-WEB-APP.exe
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\AD2-WEB-APP.deps.json
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\AD2-WEB-APP.runtimeconfig.json
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\AD2-WEB-APP.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\AD2-WEB-APP.pdb
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\AutoMapper.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\BCrypt.Net-Next.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\EFCore.NamingConventions.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Humanizer.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.InMemory.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Microsoft.OpenApi.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Mono.TextTemplating.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\MySqlConnector.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Pomelo.EntityFrameworkCore.MySql.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\System.CodeDom.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.csproj.AssemblyReference.cache
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.GeneratedMSBuildEditorConfig.editorconfig
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.AssemblyInfoInputs.cache
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.AssemblyInfo.cs
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.csproj.CoreCompileInputs.cache
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.MvcApplicationPartsAssemblyInfo.cs
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.MvcApplicationPartsAssemblyInfo.cache
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.RazorAssemblyInfo.cache
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.RazorAssemblyInfo.cs
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\staticwebassets\msbuild.AD2-WEB-APP.Microsoft.AspNetCore.StaticWebAssets.props
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\staticwebassets\msbuild.build.AD2-WEB-APP.props
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.AD2-WEB-APP.props
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.AD2-WEB-APP.props
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\staticwebassets.pack.json
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\staticwebassets.build.json
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\staticwebassets.development.json
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\scopedcss\bundle\AD2-WEB-APP.styles.css
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\scopedcss\projectbundle\AD2-WEB-APP.bundle.scp.css
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.csproj.CopyComplete
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\AD2-WEB-APP.genruntimeconfig.cache
-D:\ESOFT\AD 2\AD-2-WEBAPP\obj\Debug\net7.0\ref\AD2-WEB-APP.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/refint/AD2-WEB-APP.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.pdb
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/appsettings.Development.json
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/appsettings.json
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP.staticwebassets.runtime.json
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP.exe
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP.deps.json
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP.runtimeconfig.json
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP.pdb
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/AutoMapper.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/BCrypt.Net-Next.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/EFCore.NamingConventions.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Humanizer.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.OpenApi.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Mono.TextTemplating.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/MySqlConnector.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/System.CodeDom.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.csproj.AssemblyReference.cache
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.GeneratedMSBuildEditorConfig.editorconfig
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.AssemblyInfoInputs.cache
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.AssemblyInfo.cs
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.csproj.CoreCompileInputs.cache
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.MvcApplicationPartsAssemblyInfo.cs
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.MvcApplicationPartsAssemblyInfo.cache
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.RazorAssemblyInfo.cache
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.RazorAssemblyInfo.cs
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets/msbuild.AD2-WEB-APP.Microsoft.AspNetCore.StaticWebAssets.props
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets/msbuild.build.AD2-WEB-APP.props
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AD2-WEB-APP.props
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AD2-WEB-APP.props
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets.pack.json
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets.build.json
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets.development.json
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/scopedcss/bundle/AD2-WEB-APP.styles.css
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/scopedcss/projectbundle/AD2-WEB-APP.bundle.scp.css
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.csproj.CopyComplete
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.genruntimeconfig.cache
+D:/ESOFT/AD 2/AD-2-WEBAPP/obj/Debug/net7.0/ref/AD2-WEB-APP.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/appsettings.json
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/appsettings.Development.json
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP.staticwebassets.runtime.json
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP.deps.json
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP.runtimeconfig.json
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/AD2-WEB-APP.pdb
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/AutoMapper.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/BCrypt.Net-Next.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/EFCore.NamingConventions.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Humanizer.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.IdentityModel.Logging.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Mono.TextTemplating.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/MySqlConnector.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/System.CodeDom.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/bin/Debug/net7.0/System.IdentityModel.Tokens.Jwt.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.csproj.AssemblyReference.cache
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.GeneratedMSBuildEditorConfig.editorconfig
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.AssemblyInfoInputs.cache
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.AssemblyInfo.cs
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.csproj.CoreCompileInputs.cache
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.MvcApplicationPartsAssemblyInfo.cs
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.MvcApplicationPartsAssemblyInfo.cache
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.RazorAssemblyInfo.cache
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.RazorAssemblyInfo.cs
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets/msbuild.AD2-WEB-APP.Microsoft.AspNetCore.StaticWebAssets.props
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets/msbuild.build.AD2-WEB-APP.props
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AD2-WEB-APP.props
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AD2-WEB-APP.props
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets.pack.json
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets.build.json
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/staticwebassets.development.json
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/scopedcss/bundle/AD2-WEB-APP.styles.css
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/scopedcss/projectbundle/AD2-WEB-APP.bundle.scp.css
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.csproj.CopyComplete
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/refint/AD2-WEB-APP.dll
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.pdb
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/AD2-WEB-APP.genruntimeconfig.cache
+/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/ref/AD2-WEB-APP.dll

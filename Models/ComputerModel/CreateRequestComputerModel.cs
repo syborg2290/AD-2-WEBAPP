@@ -7,7 +7,7 @@ public class CreateRequestComputerModel
 {
 
     [Required]
-    public string Model_Name { get; set; } = null!;
+    public string Model_Name { get; set; }
     [Required]
     public int SeriesId { get; set; }
     [Required]

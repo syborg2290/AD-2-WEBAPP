@@ -30,9 +30,17 @@ var builder = WebApplication.CreateBuilder(args);
 
     // configure DI for application services
     services.AddScoped<IUserService, UserService>();
+    services.AddScoped<ICategoryService, CategoryService>();
     services.AddScoped<ICustomerService, CustomerService>();
     services.AddScoped<ICommonService, CommonService>();
     services.AddScoped<IAddressService, AddressService>();
+    services.AddScoped<IComputerModelService, ComputerModelService>();
+    services.AddScoped<IDefaultConfigurationService, DefaultConfigurationService>();
+    services.AddScoped<IConfigurationService, ConfigurationService>();
+    services.AddScoped<IItemService, ItemService>();
+    services.AddScoped<IOrderItemService, OrderItemService>();
+    services.AddScoped<IPaymentService, PaymentService>();
+    services.AddScoped<IUserService, UserService>();
 
     builder.Services.AddAuthentication(opt =>
 {
@@ -77,6 +85,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapRazorPages();

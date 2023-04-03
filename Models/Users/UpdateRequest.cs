@@ -5,24 +5,24 @@ using AD2_WEB_APP.Entities;
 
 public class UpdateRequest
 {
-    public string FirstName { get; set; } = null!;
-    public string LastName { get; set; } = null!;
+    public string FirstName { get; set; } 
+    public string LastName { get; set; } 
 
     [EnumDataType(typeof(Role))]
-    public string Role { get; set; } = null!;
+    public string Role { get; set; } 
 
     [EmailAddress]
-    public string Email { get; set; } = null!;
+    public string Email { get; set; }
 
     // treat empty string as null for password fields to 
     // make them optional in front end apps
     private string _password;
     [MinLength(6)]
-    public string Password { get; set; } = null!;
+    public string Password { get; set; } 
 
     private string _confirmPassword;
     [Compare("Password")]
-    public string ConfirmPassword { get; set; } = null!;
+    public string ConfirmPassword { get; set; } 
 
     // helpers
 

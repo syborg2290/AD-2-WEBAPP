@@ -6,43 +6,43 @@ public class CreateRequestCustomer
 {
    
     [Required]
-    public string FirstName { get; set; } = null!;
+    public string FirstName { get; set; }
 
     [Required]
-    public string LastName { get; set; } = null!;
+    public string LastName { get; set; }
 
     [Required]
     [EmailAddress]
-    public string Email { get; set; } = null!;
+    public string Email { get; set; }
 
     [Required]
-    public string Phone_Number { get; set; } = null!;
+    public string Phone_Number { get; set; }
 
     //Billing address details
 
     [Required]
-    public string Street_Address_billing { get; set; } = null!;
+    public string Street_Address_billing { get; set; }
     [Required]
-    public string City_billing { get; set; } = null!;
+    public string City_billing { get; set; }
     [Required]
-    public string State_billing { get; set; } = null!;
+    public string State_billing { get; set; }
     [Required]
-    public string Zip_Code_billing { get; set; } = null!;
+    public string Zip_Code_billing { get; set; }
     [Required]
-    public string Country_billing { get; set; } = null!;
+    public string Country_billing { get; set; }
 
     
      //Shipping address details
 
     [Required]
-    public string Street_Address_shipping { get; set; } = null!;
+    public string Street_Address_shipping { get; set; }
     [Required]
-    public string City_shipping { get; set; } = null!;
+    public string City_shipping { get; set; } 
     [Required]
-    public string State_shipping { get; set; } = null!;
+    public string State_shipping { get; set; }
     [Required]
-    public string Zip_Code_shipping { get; set; } = null!;
+    public string Zip_Code_shipping { get; set; } 
     [Required]
-    public string Country_shipping { get; set; } = null!;
+    public string Country_shipping { get; set; } 
  
 }
