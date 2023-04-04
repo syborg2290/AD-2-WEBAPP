@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/AD2-WEB-APP.props" />
-</Project>
