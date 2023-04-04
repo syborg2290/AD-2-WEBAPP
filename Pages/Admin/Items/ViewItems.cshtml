@@ -145,6 +145,7 @@
                                     <th scope="col">NAME</th>
                                     <th scope="col">CONFIGURATION</th>
                                     <th scope="col">PRICE($)</th>
+                                    <th scope="col">COM PRICE($)</th>
                                     <th scope="col">CATEGORY</th>
                                 </tr>
                             </thead>
@@ -156,6 +157,7 @@
                                         <th scope="row">@item.Name</th>
                                         <td>@item.Configuration[0].Name</td>
                                         <td>@item.Configuration[0].Price</td>
+                                        <td>@item.Configuration[0].ComparePrice</td>
                                         <td>@item.Category[0].Name</td>
                                     </tr>
                                 }

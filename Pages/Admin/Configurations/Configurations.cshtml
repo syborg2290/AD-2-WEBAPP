@@ -171,6 +171,18 @@
                             />
                         </div>
 
+                        <div class="form-group" style="margin-bottom: 10px;">
+                            <label for="name">Compare Price:</label>
+                            <input
+                            type="number"
+                            class="form-control"
+                            id="name"
+                            placeholder="Compare Price"
+                            asp-for="configuration.ComparePrice"
+                            required
+                            />
+                        </div>
+
                         @{
                             if (!string.IsNullOrEmpty(Model.Message) && Model.Type == "success")
                             {

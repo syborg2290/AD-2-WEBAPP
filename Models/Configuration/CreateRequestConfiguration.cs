@@ -18,4 +18,7 @@ public class CreateRequestConfiguration
     [Required]
     public double Price { get; set; }
 
+    [Required]
+    public double ComparePrice { get; set; }
+
 }
