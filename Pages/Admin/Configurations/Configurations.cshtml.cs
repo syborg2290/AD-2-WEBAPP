@@ -44,6 +44,7 @@ public class ConfigurationsModel : PageModel
         {
             var data = configuration;
             data.Price =  Convert.ToDouble(data.Price);
+            data.ComparePrice =  Convert.ToDouble(data.ComparePrice);
 
 
             _configurationService.Create(data);
