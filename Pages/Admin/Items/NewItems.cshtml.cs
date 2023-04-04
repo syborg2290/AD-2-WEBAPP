@@ -20,7 +20,7 @@ public class NewItemsModel : PageModel
         _itemService = itemService;
     }
 
-     [BindProperty]
+    [BindProperty]
     public Models.Item.CreateRequestItem item { get; set; }
 
     public SelectList configurations { get; set; }
@@ -44,7 +44,7 @@ public class NewItemsModel : PageModel
         {
             var data = item;
 
-            _itemService.Create(item);
+            _itemService.Create(data);
             Type = "success";
             Message = "Item created !";
             return Page();

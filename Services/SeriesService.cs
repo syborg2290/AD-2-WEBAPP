@@ -4,12 +4,13 @@ using AutoMapper;
 using AD2_WEB_APP.Entities;
 using AD2_WEB_APP.Helpers;
 using AD2_WEB_APP.Models.Series;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 
 public interface ISeriesService
 {
 
-    IEnumerable<Series> GetAll();
+    SelectList GetAll();
     Series GetById(int id);
     Series Create(CreateRequestSeries model);
     void Delete(int id);
@@ -30,11 +31,11 @@ public class SeriesService : ISeriesService
     }
 
 
-    public IEnumerable<Series> GetAll()
+    public SelectList GetAll()
     {
         try
         {
-            return _context.Series;
+            return new SelectList(_context.Series.ToList(), "Id", "Name");
         }
         catch (System.Exception)
         {
