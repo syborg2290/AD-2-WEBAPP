@@ -156,6 +156,16 @@
                            
                         </div>
 
+                        @{
+                            if (!string.IsNullOrEmpty(Model.Message) && Model.Type == "success")
+                            {
+                                <div class="alert alert-success" id="success-alert" style="margin-top: 40px;">
+                                    <button type="button" class="close" data-dismiss="alert">x</button>
+                                    <strong>@Model.Message ! </strong>
+                                </div>
+                            }
+                        }
+
 
                         <button type="submit" id="submit-button" class="btn btn-primary btn-customized mt-4">
                             Submit
@@ -192,3 +202,13 @@
        });
     </script>
 }        
+
+<script>
+    $(document).ready(function () {
+        $("#success-alert").hide();        
+        $("#success-alert").fadeTo(2000, 500).slideUp(500, function () {
+            $("#success-alert").slideUp(500);
+        });
+    });
+
+</script>

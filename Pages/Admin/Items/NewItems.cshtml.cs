@@ -13,7 +13,7 @@ public class NewItemsModel : PageModel
 
     private IItemService _itemService;
 
-    public NewItemsModel(ILogger<NewItemsModel> logger,IConfigurationService configurationService,IItemService itemService)
+    public NewItemsModel(ILogger<NewItemsModel> logger,IConfigurationService configurationService, IItemService itemService)
     {
         _logger = logger;
         _configurationService = configurationService;
@@ -25,7 +25,7 @@ public class NewItemsModel : PageModel
 
     public SelectList configurations { get; set; }
     
-     [TempData]
+    [TempData]
     public string Message { get; set; }
 
     [TempData]

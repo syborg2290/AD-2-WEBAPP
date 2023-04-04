@@ -9,7 +9,7 @@ using AD2_WEB_APP.Models.ComputerModel;
 public interface IComputerModelService
 {
 
-    IEnumerable<ComputerModel> GetAll();
+    List<GetRequestComputerModel> GetAll();
     ComputerModel GetById(int id);
     ComputerModel Create(CreateRequestComputerModel model);
     void Delete(int id);
@@ -33,11 +33,33 @@ public class ComputerModelService : IComputerModelService
     }
 
 
-    public IEnumerable<ComputerModel> GetAll()
+    public List<GetRequestComputerModel> GetAll()
     {
         try
         {
-            return _context.ComputerModel;
+            List<GetRequestComputerModel> computers = new List<GetRequestComputerModel>();
+
+            List<GetRequestWithoutCategoryComputerModel> computersListWi = _context.ComputerModel
+                .Select(p => new GetRequestWithoutCategoryComputerModel
+                {
+                    Id = p.Id,
+                    Model_Name = p.Model_Name,
+                    Configuration = _context.ItemConfiguration.Where(t => t.Id == p.Default_Configuration_ID).ToList(),
+                    Series = _context.Series.Where(t => t.Id == p.SeriesId).ToList(),
+                }).ToList();
+
+            computersListWi.ForEach((each) =>
+       {
+           computers.Add(new GetRequestComputerModel
+           {
+               Id = each.Id,
+               Model_Name = each.Model_Name,
+               Configuration = each.Configuration,
+               Series = each.Series,
+               Category = _context.Category.Where(t => t.Id == each.Configuration[0].CategoryId).ToList()
+           });
+       });
+            return computers;
         }
         catch (System.Exception)
         {
