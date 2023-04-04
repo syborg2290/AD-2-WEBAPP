@@ -8,11 +8,14 @@ namespace AD2_WEB_APP.Pages;
 
 public class SigleProductModel : PageModel
 {
+    [BindProperty(Name = "id", SupportsGet = true)]
+    public int Id { get; set; }
     private readonly ILogger<SigleProductModel> _logger;
     private IComputerModelService _computerService;
      public GetRequestComputerModel item { get; set; }
 
-    public SigleProductModel(ILogger<SigleProductModel> logger,IComputerModelService computerService)
+    public SigleProductModel(ILogger<SigleProductModel> logger,
+    IComputerModelService computerService)
     {
         _logger = logger;
         _computerService = computerService;
@@ -20,6 +23,13 @@ public class SigleProductModel : PageModel
 
     public void OnGet()
     {
-        item = _computerService.GetComputerById(1);
+        if (Id==null)
+        {
+            item = _computerService.GetComputerById(1);
+        }else
+        {
+            item = _computerService.GetComputerById(Id);
+        }
+        
     }
 }

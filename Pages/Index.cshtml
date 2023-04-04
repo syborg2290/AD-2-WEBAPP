@@ -147,7 +147,7 @@
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">@item.Model_Name</a></h2>
+                                <h2><a  asp-page="single-product" asp-route-id="@item.Id">@item.Model_Name</a></h2>
                                 
                                 <div class="product-carousel-price">
                                     <ins>LKR @item.Configuration[0].Price.00</ins> <del>LKR @item.Configuration[0].Price.00</del>
