@@ -12,4 +12,7 @@ public class CreateRequestItem
     [Required]
     public int ConfigurationID { get; set; }
 
+     [Required]
+    public string ImagePath { get; set; }
+
 }

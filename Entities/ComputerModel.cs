@@ -7,4 +7,6 @@ public class ComputerModel{
     public string Model_Name { get; set; } = null!;
     public int SeriesId { get; set; }
     public int Default_Configuration_ID { get; set; }
+
+    public string ImagePath { get; set; }
 }

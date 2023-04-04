@@ -3,17 +3,14 @@
 @{
     ViewData["Title"] = "Home page";
 }
-<!-- 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div> -->
+
 <div class="site-branding-area">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
                     <div class="logo">
-                        <h1><a href="./"><img src="~/home/img/logo.png"></a></h1>
+                        <h1><a href="./"><img src="~/home/img/logo-new.jpg"
+                        width="50" height="50"></a></h1>
                     </div>
                 </div>
                 
@@ -39,11 +36,11 @@
                 </div> 
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="shop.html">Shop page</a></li>
-                        <li><a href="single-product.html">Single product</a></li>
-                        <li><a href="cart.html">Cart</a></li>
-                        <li><a href="checkout.html">Checkout</a></li>
+                        <li class="active"><a href="/Index">Home</a></li>
+                        <li><a href="/Shop">Shop page</a></li>
+                        <li><a href="/Single-product">Single product</a></li>
+                        <li><a href="/Cart">Cart</a></li>
+                        <li><a href="/Checkout">Checkout</a></li>
                         <li><a href="#">Category</a></li>
                         <li><a href="#">Others</a></li>
                         <li><a href="#">Contact</a></li>
@@ -58,39 +55,39 @@
 			<div class="block-slider block-slider4">
 				<ul class="" id="bxslider-home4">
 					<li>
-						<img src="~/home/img/h4-slide.png" alt="Slide">
+						<img src="~/home/img/h4-slide2.jpg" alt="Slide" width="200" height="200">
 						<div class="caption-group">
 							<h2 class="caption title">
-								iPhone <span class="primary">6 <strong>Plus</strong></span>
+								Acer <span class="primary">3 <strong>Swift</strong></span>
 							</h2>
-							<h4 class="caption subtitle">Dual SIM</h4>
+							<h4 class="caption subtitle">Swift Go AMD</h4>
 							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
 						</div>
 					</li>
-					<li><img src="~/home/img/h4-slide2.png" alt="Slide">
+					<li><img src="~/home/img/h4-slide3.jpg" alt="Slide">
 						<div class="caption-group">
 							<h2 class="caption title">
-								by one, get one <span class="primary">50% <strong>off</strong></span>
+								&nbsp;&nbsp;&nbsp;by one, get one <span class="primary">30% <strong>off</strong></span>
 							</h2>
-							<h4 class="caption subtitle">school supplies & backpacks.*</h4>
+							<h4 class="caption subtitle">&nbsp;&nbsp;&nbsp;PRO GAMING & GRAPHICS - PRE ASSEMBLED PC*</h4>
+							<a class="caption button-radius" href="#"><span class="icon"></span>&nbsp;&nbsp;&nbsp;Shop now</a>
+						</div>
+					</li>
+					<li><img src="~/home/img/h4-slide4.jpg" alt="Slide">
+						<div class="caption-group">
+							<h2 class="caption title">
+								Chromebook <span class="primary">Store <strong>Sale</strong></span>
+							</h2>
+							<h4 class="caption subtitle">Sale</h4>
 							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
 						</div>
 					</li>
-					<li><img src="~/home/img/h4-slide3.png" alt="Slide">
-						<div class="caption-group">
-							<h2 class="caption title">
-								Apple <span class="primary">Store <strong>Ipod</strong></span>
-							</h2>
-							<h4 class="caption subtitle">Select Item</h4>
-							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
-						</div>
-					</li>
-					<li><img src="~/home/img/h4-slide4.png" alt="Slide">
+					<li><img src="~/home/img/h4-slide.jpg" alt="Slide">
 						<div class="caption-group">
 						  <h2 class="caption title">
-								Apple <span class="primary">Store <strong>Ipod</strong></span>
+								Acer <span class="primary">Store <strong>Laptop</strong></span>
 							</h2>
-							<h4 class="caption subtitle">& Phone</h4>
+							<h4 class="caption subtitle">Sale</h4>
 							<a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
 						</div>
 					</li>
@@ -139,7 +136,26 @@
                     <div class="latest-product">
                         <h2 class="section-title">Latest Products</h2>
                         <div class="product-carousel">
+                              @foreach (var item in Model.itemList)
+                                {
                             <div class="single-product">
+                                <div class="product-f-image">
+                                    <img src="~/home/img/product-1.jpg" alt="">
+                                    <div class="product-hover">
+                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                    </div>
+                                </div>
+                                
+                                <h2><a href="single-product.html">@item.Model_Name</a></h2>
+                                
+                                <div class="product-carousel-price">
+                                    <ins>LKR @item.Configuration[0].Price.00</ins> <del>LKR @item.Configuration[0].Price.00</del>
+                                </div> 
+                            </div>
+
+                                }
+                            <!-- <div class="single-product">
                                 <div class="product-f-image">
                                     <img src="~/home/img/product-1.jpg" alt="">
                                     <div class="product-hover">
@@ -153,8 +169,8 @@
                                 <div class="product-carousel-price">
                                     <ins>$700.00</ins> <del>$100.00</del>
                                 </div> 
-                            </div>
-                            <div class="single-product">
+                            </div> -->
+                            <!-- <div class="single-product">
                                 <div class="product-f-image">
                                     <img src="~/home/img/product-2.jpg" alt="">
                                     <div class="product-hover">
@@ -227,7 +243,7 @@
                                 <div class="product-carousel-price">
                                     <ins>$400.00</ins>
                                 </div>                            
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "eX5fvf8JjPmjFtUa7msrj3vUqRE3FkANktM/7yfBxJ5ImXLC3VIcPWPigSNOufZ5qUIE0YpktcAUconT21mXVw==",
+  "dgSpecHash": "kJ91XjqC0ysN0H9A3vKwbWzUz3TVUrM3RyN6p6sGFlsqU9MHo+LzgGKtArCnVFRs5oEFe+094RK7PnBQ4ZKx6w==",
   "success": true,
   "projectFilePath": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/AD2-WEB-APP.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,9 @@
     "/root/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "/root/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "/root/.nuget/packages/microsoft.extensions.dependencymodel/7.0.0/microsoft.extensions.dependencymodel.7.0.0.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.extensions.fileproviders.abstractions/7.0.0/microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.extensions.fileproviders.physical/7.0.0/microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.extensions.filesystemglobbing/7.0.0/microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
     "/root/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
     "/root/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "/root/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",

@@ -156,6 +156,27 @@
                            
                         </div>
 
+                        <div class="form-group" style="margin-bottom:
+                                10px;">
+                                <label for="name">Image:</label>
+                                <input
+                                    type="file"
+                                    class="form-control"
+                                    id="File1"
+                                    placeholder="Image"
+                                    asp-for="UploadedFile"
+                                    accept="image/*"
+                                    />
+                            </div>
+
+                            @if (!string.IsNullOrEmpty(Model.FilePath))
+                            {
+                                <span>
+                                    <br />
+                                    <img src="@Url.Content(@Model.FilePath)" id="img" />
+                                </span>
+                            }
+
                         @{
                             if (!string.IsNullOrEmpty(Model.Message) && Model.Type == "success")
                             {
