@@ -1,0 +1,489 @@
+{
+  "Files": [
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/Debug/net7.0/scopedcss/projectbundle/AD2-WEB-APP.bundle.scp.css",
+      "PackagePath": "staticwebassets/AD2-WEB-APP.bundle.scp.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/admin/assets/demo/chart-area-demo.js",
+      "PackagePath": "staticwebassets/admin/assets/demo/chart-area-demo.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/admin/assets/demo/chart-bar-demo.js",
+      "PackagePath": "staticwebassets/admin/assets/demo/chart-bar-demo.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/admin/assets/demo/chart-pie-demo.js",
+      "PackagePath": "staticwebassets/admin/assets/demo/chart-pie-demo.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/admin/assets/demo/datatables-demo.js",
+      "PackagePath": "staticwebassets/admin/assets/demo/datatables-demo.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/admin/assets/img/error-404-monochrome.svg",
+      "PackagePath": "staticwebassets/admin/assets/img/error-404-monochrome.svg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/admin/css/styles.css",
+      "PackagePath": "staticwebassets/admin/css/styles.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/admin/js/datatables-simple-demo.js",
+      "PackagePath": "staticwebassets/admin/js/datatables-simple-demo.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/admin/js/scripts.js",
+      "PackagePath": "staticwebassets/admin/js/scripts.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/home/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/home/css/font-awesome.min.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/css/owl.carousel.css",
+      "PackagePath": "staticwebassets/home/css/owl.carousel.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/css/responsive.css",
+      "PackagePath": "staticwebassets/home/css/responsive.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/home/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/home/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/home/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/home/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/home/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/fonts/glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets/home/fonts/glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/fonts/glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets/home/fonts/glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/fonts/glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets/home/fonts/glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/fonts/glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets/home/fonts/glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/brand1.png",
+      "PackagePath": "staticwebassets/home/img/brand1.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/brand2.png",
+      "PackagePath": "staticwebassets/home/img/brand2.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/brand3.png",
+      "PackagePath": "staticwebassets/home/img/brand3.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/brand4.png",
+      "PackagePath": "staticwebassets/home/img/brand4.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/brand5.png",
+      "PackagePath": "staticwebassets/home/img/brand5.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/brand6.png",
+      "PackagePath": "staticwebassets/home/img/brand6.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/crossword.png",
+      "PackagePath": "staticwebassets/home/img/crossword.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/h4-slide.jpg",
+      "PackagePath": "staticwebassets/home/img/h4-slide.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/h4-slide.png",
+      "PackagePath": "staticwebassets/home/img/h4-slide.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/h4-slide2.jpg",
+      "PackagePath": "staticwebassets/home/img/h4-slide2.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/h4-slide2.png",
+      "PackagePath": "staticwebassets/home/img/h4-slide2.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/h4-slide3.jpg",
+      "PackagePath": "staticwebassets/home/img/h4-slide3.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/h4-slide3.png",
+      "PackagePath": "staticwebassets/home/img/h4-slide3.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/h4-slide4.png",
+      "PackagePath": "staticwebassets/home/img/h4-slide4.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/h4-slide7.png",
+      "PackagePath": "staticwebassets/home/img/h4-slide7.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/logo-new.jpg",
+      "PackagePath": "staticwebassets/home/img/logo-new.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/logo.png",
+      "PackagePath": "staticwebassets/home/img/logo.png"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/product-1.jpg",
+      "PackagePath": "staticwebassets/home/img/product-1.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/product-2.jpg",
+      "PackagePath": "staticwebassets/home/img/product-2.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/product-3.jpg",
+      "PackagePath": "staticwebassets/home/img/product-3.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/product-4.jpg",
+      "PackagePath": "staticwebassets/home/img/product-4.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/product-5.jpg",
+      "PackagePath": "staticwebassets/home/img/product-5.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/product-6.jpg",
+      "PackagePath": "staticwebassets/home/img/product-6.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/product-thumb-1.jpg",
+      "PackagePath": "staticwebassets/home/img/product-thumb-1.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/product-thumb-2.jpg",
+      "PackagePath": "staticwebassets/home/img/product-thumb-2.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/product-thumb-3.jpg",
+      "PackagePath": "staticwebassets/home/img/product-thumb-3.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/img/product-thumb-4.jpg",
+      "PackagePath": "staticwebassets/home/img/product-thumb-4.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/js/bxslider.min.js",
+      "PackagePath": "staticwebassets/home/js/bxslider.min.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/js/jquery.easing.1.3.min.js",
+      "PackagePath": "staticwebassets/home/js/jquery.easing.1.3.min.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/js/jquery.sticky.js",
+      "PackagePath": "staticwebassets/home/js/jquery.sticky.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/js/main.js",
+      "PackagePath": "staticwebassets/home/js/main.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/js/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/home/js/owl.carousel.min.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/js/script.slider.js",
+      "PackagePath": "staticwebassets/home/js/script.slider.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/home/style.css",
+      "PackagePath": "staticwebassets/home/style.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/images/FB_IMG_1680450554943.jpg",
+      "PackagePath": "staticwebassets/images/FB_IMG_1680450554943.jpg"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.AD2-WEB-APP.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.AD2-WEB-APP.props",
+      "PackagePath": "build\\AD2-WEB-APP.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.AD2-WEB-APP.props",
+      "PackagePath": "buildMultiTargeting\\AD2-WEB-APP.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.AD2-WEB-APP.props",
+      "PackagePath": "buildTransitive\\AD2-WEB-APP.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

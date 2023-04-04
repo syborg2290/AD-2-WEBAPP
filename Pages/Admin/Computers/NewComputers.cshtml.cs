@@ -76,8 +76,8 @@ public class NewComputersModel : PageModel
 
             var data = computer;
 
-            FilePath = targetFileName;
-            data.ImagePath = targetFileName;
+            FilePath = UploadedFile.FileName;
+            data.ImagePath = UploadedFile.FileName;
 
             _computerService.Create(data);
             Type = "success";

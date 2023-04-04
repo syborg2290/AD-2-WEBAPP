@@ -70,8 +70,8 @@ public class NewItemsModel : PageModel
             }
 
             var data = item;
-            FilePath = targetFileName;
-            data.ImagePath = targetFileName;
+            FilePath = UploadedFile.FileName;
+            data.ImagePath = UploadedFile.FileName;
 
             _itemService.Create(data);
             
