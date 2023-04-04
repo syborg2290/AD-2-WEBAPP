@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VJ9HU1FOSDAKdsHgDTwHZG0cSOps29nduHyFXNUgHXZ+JQwuJ34xOFLyW8k+uMf5VgnUYdGyjU7QZudaVvHtWg==",
+  "dgSpecHash": "eX5fvf8JjPmjFtUa7msrj3vUqRE3FkANktM/7yfBxJ5ImXLC3VIcPWPigSNOufZ5qUIE0YpktcAUconT21mXVw==",
   "success": true,
-  "projectFilePath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/AD2-WEB-APP.csproj",
+  "projectFilePath": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/AD2-WEB-APP.csproj",
   "expectedPackageFiles": [
     "/root/.nuget/packages/automapper/12.0.0/automapper.12.0.0.nupkg.sha512",
     "/root/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.0/automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

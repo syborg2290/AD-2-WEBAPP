@@ -1771,11 +1771,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/AD2-WEB-APP.csproj",
+      "projectUniqueName": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/AD2-WEB-APP.csproj",
       "projectName": "AD2-WEB-APP",
-      "projectPath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/AD2-WEB-APP.csproj",
+      "projectPath": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/AD2-WEB-APP.csproj",
       "packagesPath": "/root/.nuget/packages/",
-      "outputPath": "/home/kasun-webmotech/Desktop/esoft/AD2-WEB-APP/obj/",
+      "outputPath": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/root/.nuget/NuGet/NuGet.Config"

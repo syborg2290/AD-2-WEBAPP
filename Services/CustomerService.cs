@@ -13,7 +13,7 @@ public interface ICustomerService
     IEnumerable<Customer> GetAll();
     Customer GetById(int id);
     Customer GetByUserId(int id);
-    void Create(CreateRequestCustomer model, string token);
+    void Create(CreateRequestCustomer model, string userId);
     void Delete(int id);
 }
 
@@ -86,7 +86,7 @@ public class CustomerService : ICustomerService
     }
 
 
-    public void Create(CreateRequestCustomer model, string token)
+    public void Create(CreateRequestCustomer model, string userId)
     {
         try
         {
@@ -117,9 +117,6 @@ public class CustomerService : ICustomerService
 
             // map model to new customer object
             CreateCustomer customerModel = new CreateCustomer();
-
-            //Decode token and get userId
-            string userId = _commonService.DecodeToken(token);
 
             customerModel.UserId = Convert.ToInt32(userId);
             customerModel.FirstName = model.FirstName;

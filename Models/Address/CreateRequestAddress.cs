@@ -7,19 +7,19 @@ public class CreateRequestAddress
 {
    
     [Required]
-    public string Street_Address { get; set; } = null!;
+    public string Street_Address { get; set; }
 
     [Required]
-    public string City { get; set; } = null!;
+    public string City { get; set; }
 
     [Required]
     [EmailAddress]
-    public string State { get; set; } = null!;
+    public string State { get; set; }
 
     [Required]
-    public string Zip_Code { get; set; } = null!;
+    public string Zip_Code { get; set; }
 
      [Required]
-    public string Country { get; set; } = null!;
+    public string Country { get; set; }
  
 }
