@@ -4,12 +4,13 @@ using AutoMapper;
 using AD2_WEB_APP.Entities;
 using AD2_WEB_APP.Helpers;
 using AD2_WEB_APP.Models.Item;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 
 public interface IItemService
 {
 
-    IEnumerable<Item> GetAll();
+    List<GetRequestItem> GetAll();
     Item GetById(int id);
     Item Create(CreateRequestItem model);
     void Delete(int id);
@@ -33,11 +34,35 @@ public class ItemService : IItemService
     }
 
 
-    public IEnumerable<Item> GetAll()
+    public List<GetRequestItem> GetAll()
     {
         try
         {
-            return _context.Item;
+            List<GetRequestItem> itemsAll = new List<GetRequestItem>();
+
+            List<GetWithoutCatRequestItem> items = _context.Item
+                .Select(p => new GetWithoutCatRequestItem
+                {
+                    Id = p.Id,
+                    Name = p.Name,
+                    Configuration = _context.ItemConfiguration.Where(t => t.Id == p.ConfigurationID).ToList(),
+                }).ToList();
+
+            items.ForEach((each) =>
+            {
+                itemsAll.Add(new GetRequestItem
+                {
+                    Id = each.Id,
+                    Name = each.Name,
+                    Configuration = each.Configuration,
+                    Category = _context.Category.Where(t => t.Id == each.Configuration[0].CategoryId).ToList()
+                });
+            });
+
+            // Console.WriteLine(items[0].Configuration[0].CategoryId);
+
+            return itemsAll;
+
         }
         catch (System.Exception)
         {

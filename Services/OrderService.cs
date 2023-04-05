@@ -11,7 +11,7 @@ public interface IOrderService
 
     IEnumerable<Order> GetAll();
     Order GetById(int id);
-    Order Create(CreateRequestOrder model, string token);
+    Order Create(CreateRequestOrder model, string userId);
     void Delete(int id);
 }
 
@@ -69,14 +69,11 @@ public class OrderService : IOrderService
 
     }
 
-    public Order Create(CreateRequestOrder model, string token)
+    public Order Create(CreateRequestOrder model, string userId)
     {
         try
         {
-            //Decode token and get userId
-            int userId = Convert.ToInt32(_commonService.DecodeToken(token));
-
-            Customer customer = _customerService.GetByUserId(userId);
+            Customer customer = _customerService.GetByUserId(Convert.ToInt32(userId));
 
             // map model to new order object
             var order = _mapper.Map<Order>(model);

@@ -4,12 +4,13 @@ using AutoMapper;
 using AD2_WEB_APP.Entities;
 using AD2_WEB_APP.Helpers;
 using AD2_WEB_APP.Models.Configuration;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 
 public interface IConfigurationService
 {
 
-    IEnumerable<Configuration> GetAll();
+    SelectList GetAll();
     Configuration GetById(int id);
     Configuration Create(CreateRequestConfiguration model);
     void Delete(int id);
@@ -33,11 +34,11 @@ public class ConfigurationService : IConfigurationService
     }
 
 
-    public IEnumerable<Configuration> GetAll()
+    public SelectList GetAll()
     {
         try
         {
-            return _context.ItemConfiguration;
+            return new SelectList(_context.ItemConfiguration.ToList(), "Id", "Name");
         }
         catch (System.Exception)
         {

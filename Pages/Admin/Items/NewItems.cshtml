@@ -1,0 +1,265 @@
+@page
+@model NewItemsModel
+@{
+    ViewData["Title"] = "NewItems";
+}
+
+
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+    <!-- Navbar Brand-->
+    <a class="navbar-brand ps-3" href="index.html">E-Comm</a>
+    <!-- Sidebar Toggle-->
+    <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
+        id="sidebarToggle" href="#!"><i class="fas fa-bars"></i></button>
+    <!-- Navbar Search-->
+    <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2
+        my-md-0">
+        <div class="input-group">
+            <input class="form-control" type="text" placeholder="Search for..."
+                aria-label="Search for..." aria-describedby="btnNavbarSearch" />
+            <button class="btn btn-primary" id="btnNavbarSearch" type="button"><i
+                    class="fas fa-search"></i></button>
+        </div>
+    </form>
+    <!-- Navbar-->
+    <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false"><i
+                    class="fas fa-user fa-fw"></i></a>
+            <ul class="dropdown-menu dropdown-menu-end"
+                aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#!">Settings</a></li>
+                <li><a class="dropdown-item" href="#!">Activity Log</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li><a class="dropdown-item" href="#!">Logout</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+<div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+            <div class="sb-sidenav-menu">
+                <div class="nav">
+                    <div class="sb-sidenav-menu-heading"></div>
+                    <a class="nav-link" href="/Admin/Dashboard">
+                        <div class="sb-nav-link-icon"><i class="fas
+                                fa-tachometer-alt"></i></div>
+                        Dashboard
+                    </a>
+
+                    <a class="nav-link" href="/Admin/Customers/CustomersView">
+                        <div class="sb-nav-link-icon"><i class="fa-solid
+                                fa-person"></i></div>
+                        Customers
+                    </a>
+
+                    <a class="nav-link" href="/Admin/Category/Category">
+                        <div class="sb-nav-link-icon"><i class="fa-solid
+                                fa-computer"></i></div>
+                        Category
+                    </a>
+
+                    <a class="nav-link"
+                        href="/Admin/Configurations/Configurations">
+                        <div class="sb-nav-link-icon"><i class="fa-solid
+                                fa-computer"></i></div>
+                        Configurations
+                    </a>
+
+                    <a class="nav-link" href="/Admin/Series/Series">
+                        <div class="sb-nav-link-icon"><i class="fa-solid
+                                fa-computer"></i></div>
+                        Series
+                    </a>
+
+
+                    <a class="nav-link collapsed" href="#"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseLayouts" aria-expanded="false"
+                        aria-controls="collapseLayouts">
+                        <div class="sb-nav-link-icon"><i class="fa-sharp
+                                fa-solid fa-memory"></i></div>
+                        Items
+                        <div class="sb-sidenav-collapse-arrow"><i class="fas
+                                fa-angle-down"></i></div>
+                    </a>
+                    <div class="collapse" id="collapseLayouts"
+                        aria-labelledby="headingOne"
+                        data-bs-parent="#sidenavAccordion">
+                        <nav class="sb-sidenav-menu-nested nav">
+                            <a class="nav-link" href="/Admin/Items/ViewItems">All
+                                Items</a>
+                            <a class="nav-link" href="/Admin/Items/NewItems">New
+                                Items</a>
+                        </nav>
+                    </div>
+
+                    <a class="nav-link" href="/Admin/Computers/Computers">
+                        <div class="sb-nav-link-icon"><i class="fa-solid
+                                fa-computer"></i></div>
+                        Computers
+                    </a>
+
+                    <a class="nav-link" href="/Admin/Orders/Orders">
+                        <div class="sb-nav-link-icon"><i class="fa-sharp
+                                fa-solid fa-bags-shopping"></i></div>
+                        Orders
+                    </a>
+
+                    <a class="nav-link" href="/Admin/Payments/Payments">
+                        <div class="sb-nav-link-icon"><i class="fa-solid
+                                fa-credit-card"></i></div>
+                        Payments History
+                    </a>
+
+                    <a class="nav-link" href="#">
+                        <div class="sb-nav-link-icon"><i class="fa-solid
+                                fa-chart-simple"></i></div>
+                        Reports
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="sb-sidenav-footer">
+                <div class="small">Logged in as:</div>
+                Admin
+            </div>
+
+        </nav>
+    </div>
+    <div id="layoutSidenav_content">
+        <main>
+
+            <div class="container-fluid px-4">
+                <h1 class="mt-4">New Items</h1>
+                <div class="row">
+                    <div class="mx-auto col-10 col-md-8 col-lg-6">
+                        <!-- Form -->
+                        <form class="form-example" method="post"
+                            enctype="multipart/form-data">
+
+                            <!-- Input fields -->
+                            <div class="form-group" style="margin-bottom:
+                                10px;">
+                                <label for="name">Name:</label>
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    id="name"
+                                    placeholder="Name"
+                                    asp-for="item.Name"
+                                    required
+                                    />
+                            </div>
+
+                            <div class="form-group" style="margin-bottom:
+                                10px;">
+                                <label for="name">Configuration:</label>
+                                <select class="form-select"
+                                    id="ddlConfiguration"
+                                    asp-for="item.ConfigurationID"
+                                    asp-items="@Model.configurations">
+                                    <option value="0">--Select A Configuration--</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group" style="margin-bottom:
+                                10px;">
+                                <label for="description">Description:</label>
+                                <textarea
+                                    type="text"
+                                    class="form-control description"
+                                    id="desc"
+                                    placeholder="Description"
+                                    rows="3"></textarea>
+
+                            </div>
+
+                            <div class="form-group" style="margin-bottom:
+                                10px;">
+                                <label for="name">Image:</label>
+                                <input
+                                    type="file"
+                                    class="form-control"
+                                    id="File1"
+                                    placeholder="Image"
+                                    asp-for="UploadedFile"
+                                    accept="image/*"
+                                    />
+                            </div>
+
+                            @if (!string.IsNullOrEmpty(Model.FilePath))
+                            {
+                                <span>
+                                    <br />
+                                    <img src="~/images/@Model.FilePath" id="img" 
+                                    height="200px"
+                                    width="200px" />
+                                </span>
+                            }
+
+                            @{
+                                if (!string.IsNullOrEmpty(Model.Message) &&
+                                Model.Type == "success")
+                                {
+                                    <div class="alert alert-success" id="success-alert"
+                                        style="margin-top: 40px;">
+                                        <button type="button" class="close"
+                                            data-dismiss="alert">x</button>
+                                        <strong>@Model.Message ! </strong>
+                                    </div>
+                                }
+                            }
+
+
+                            <button type="submit" id="submit-button" class="btn
+                                btn-primary btn-customized mt-4">
+                                Submit
+                            </button>
+                        </form>
+                        <!-- Form end -->
+                    </div>
+                </div>
+
+
+            </div>
+
+        </main>
+        <footer class="py-4 bg-light mt-auto">
+            <div class="container-fluid px-4">
+                <div class="d-flex align-items-center justify-content-between
+                    small">
+                    <div class="text-muted">Copyright &copy; E-Comm 2023</div>
+                    <div>
+                        <a href="#">Privacy Policy</a>
+                        &middot;
+                        <a href="#">Terms &amp; Conditions</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+
+@if (Model.Message != string.Empty)
+{
+    <script type="text/javascript">
+        document.querySelector('#submit-button').addEventListener('click', function(event) {
+            alert("@Model.Message");
+       });
+    </script>
+}
+
+<script>
+    $(document).ready(function () {
+        $("#success-alert").hide();        
+        $("#success-alert").fadeTo(2000, 500).slideUp(500, function () {
+            $("#success-alert").slideUp(500);
+        });
+    });
+
+</script>

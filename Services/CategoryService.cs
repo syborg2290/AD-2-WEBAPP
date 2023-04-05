@@ -1,5 +1,5 @@
 namespace AD2_WEB_APP.Services;
-
+using Microsoft.AspNetCore.Mvc.Rendering;
 using AutoMapper;
 using AD2_WEB_APP.Entities;
 using AD2_WEB_APP.Helpers;
@@ -9,7 +9,7 @@ using AD2_WEB_APP.Models.Category;
 public interface ICategoryService
 {
 
-    IEnumerable<Category> GetAll();
+    SelectList GetAll();
     Category GetById(int id);
     Category Create(CreateRequestCategory model);
     void Delete(int id);
@@ -33,11 +33,11 @@ public class CategoryService : ICategoryService
     }
 
 
-    public IEnumerable<Category> GetAll()
+    public SelectList GetAll()
     {
         try
         {
-            return _context.Category;
+            return new SelectList(_context.Category.ToList(), "Id", "Name");
         }
         catch (System.Exception)
         {

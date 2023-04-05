@@ -10,9 +10,9 @@ public class CreateRequestPayment
     public int OrderID { get; set; }
 
     [Required]
-    public double Amount { get; set; } = 0.0!;
+    public double Amount { get; set; }
 
     [Required]
-    public string PaymentDate { get; set; } = null!;
+    public string PaymentDate { get; set; }
 
 }

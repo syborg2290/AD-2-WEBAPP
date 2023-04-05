@@ -9,17 +9,17 @@ public class CreateCustomer
     public int UserId { get; set; }
 
     [Required]
-    public string FirstName { get; set; } = null!;
+    public string FirstName { get; set; }
 
     [Required]
-    public string LastName { get; set; } = null!;
+    public string LastName { get; set; }
 
     [Required]
     [EmailAddress]
-    public string Email { get; set; } = null!;
+    public string Email { get; set; }
 
     [Required]
-    public string Phone_Number { get; set; } = null!;
+    public string Phone_Number { get; set; }
 
     [Required]
     public int Billing_Address_ID { get; set; }

@@ -16,15 +16,15 @@ public class CreateRequestOrder
     public int BillingAddressID { get; set; }
 
     [Required]
-    public string Shipping_Method { get; set; } = null!;
+    public string Shipping_Method { get; set; }
 
     [Required]
-    public string Shipping_Date { get; set; } = null!;
+    public string Shipping_Date { get; set; }
 
     [Required]
-    public double TotalPrice { get; set; } = 0.0!;
+    public double TotalPrice { get; set; }
 
     [Required]
-    public string OrderStatus { get; set; } = null!;
+    public string OrderStatus { get; set; }
 
 }

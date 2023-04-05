@@ -1,15 +1,28 @@
 namespace AD2_WEB_APP.Helpers;
 
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using AD2_WEB_APP.Entities;
 
-public class DataContext : DbContext
+
+public class DataContext : IdentityDbContext<ApplicationUser>
 {
     protected readonly IConfiguration Configuration;
 
-    public DataContext(IConfiguration configuration)
+    public DataContext(IConfiguration configuration, DbContextOptions<DataContext> options) : base(options)
     {
         Configuration = configuration;
+    }
+
+    protected override void OnModelCreating(ModelBuilder builder)
+    {
+        base.OnModelCreating(builder);
+
+        builder.Entity<ApplicationUser>(entity =>
+        {
+            // Add custom configuration for ApplicationUser entity
+        });
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
@@ -31,6 +44,13 @@ public class DataContext : DbContext
     public DbSet<OrderItem> OrderItem { get; set; }
     public DbSet<Payment> Payment { get; set; }
     public DbSet<Series> Series { get; set; }
+
+
+}
+
+public class ApplicationUser : IdentityUser
+{
+    // You can add custom properties here
 
 
 }

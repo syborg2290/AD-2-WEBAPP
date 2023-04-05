@@ -7,9 +7,12 @@ public class CreateRequestItem
 {
 
     [Required]
-    public string Name { get; set; } = null!;
+    public string Name { get; set; }
 
     [Required]
     public int ConfigurationID { get; set; }
+
+     [Required]
+    public string ImagePath { get; set; }
 
 }
