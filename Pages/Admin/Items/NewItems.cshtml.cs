@@ -8,9 +8,11 @@ using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AD2_WEB_APP.Pages.Admin;
 
+[Authorize]
 public class NewItemsModel : PageModel
 {
     private readonly ILogger<NewItemsModel> _logger;
