@@ -19,4 +19,20 @@ public class ShopModel : PageModel
     {
         itemList = _computerService.GetAll();
     }
+
+    public void OnPostSetItem(int id,int price)
+    {
+        try
+        {
+            itemList = _computerService.GetAll();
+            HttpContext.Session.SetInt32("id" + id, id);
+            HttpContext.Session.SetInt32("price" + id, price);
+        }
+        catch (System.Exception)
+        {
+
+            throw;
+        }
+
+    }
 }

@@ -80,7 +80,14 @@
                         </div>  
                         
                         <div class="product-option-shop">
-                            <a class="add_to_cart_button" data-quantity="1" data-product_sku="" data-product_id="70" rel="nofollow" href="/canvas/shop/?add-to-cart=70">Add to cart</a>
+                                         <form asp-page-handler="SetItem" method="post">
+                                            
+                                          <button class="btn btn-default"><a class="add_to_cart_button btn btn-default" type="button"
+                                        ><i class="fa fa-shopping-cart"></i>  Add to cart</a></button>
+                                             <input type="hidden" name="id" value="@item.Id" />
+                                              <input type="hidden" name="price" value="@item.Configuration[0].Price" />
+                                         </form>
+                           
                         </div>                       
                     </div>
                 </div>
