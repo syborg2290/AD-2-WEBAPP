@@ -109,10 +109,10 @@ public class CustomerService : ICustomerService
 
             return token.ToString();
         }
-        catch (System.Exception)
+        catch (System.Exception e)
         {
 
-            throw;
+             throw new AppException(e.Message);
         }
     }
 
@@ -166,10 +166,10 @@ public class CustomerService : ICustomerService
             _context.Customers.Add(customer);
             _context.SaveChanges();
         }
-        catch (System.Exception)
+        catch (System.Exception e)
         {
 
-            throw;
+            throw new AppException(e.Message);
         }
 
     }
