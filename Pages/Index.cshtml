@@ -38,7 +38,7 @@
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="/Index">Home</a></li>
                         <li><a href="/Shop">Shop page</a></li>
-                        <li><a href="/Single-product">Single product</a></li>
+                        
                         <li><a href="/Cart">Cart</a></li>
                         <li><a href="/Checkout">Checkout</a></li>
                         <li><a href="#">Category</a></li>
@@ -142,12 +142,21 @@
                                 <div class="product-f-image">
                                     <img src="~/home/img/product-1.jpg" alt="">
                                     <div class="product-hover">
-                                        <a href="#" class="add-to-cart-link"><i class="fa fa-shopping-cart"></i> Add to cart</a>
-                                        <a href="single-product.html" class="view-details-link"><i class="fa fa-link"></i> See details</a>
+                                         <form asp-page-handler="SetItem" method="post">
+                                            
+                                          <button class="btn btn-default"><a class="add-to-cart-link btn btn-default" type="button"
+                                        ><i class="fa fa-shopping-cart"></i>  Add to cart</a></button>
+                                             <input type="hidden" name="id" value="@item.Id" />
+                                              <input type="hidden" name="price" value="@item.Configuration[0].Price" />
+                                         </form>
+                                        
+                                        <a asp-page="single-product" asp-route-id="@item.Id" class="view-details-link">
+                                            <i class="fa fa-link"></i> See details</a>
+                                        
                                     </div>
                                 </div>
                                 
-                                <h2><a href="single-product.html">@item.Model_Name</a></h2>
+                                <h2><a  asp-page="single-product" asp-route-id="@item.Id">@item.Model_Name</a></h2>
                                 
                                 <div class="product-carousel-price">
                                     <ins>LKR @item.Configuration[0].Price.00</ins> <del>LKR @item.Configuration[0].Price.00</del>
