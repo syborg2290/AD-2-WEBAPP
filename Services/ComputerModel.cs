@@ -4,6 +4,7 @@ using AutoMapper;
 using AD2_WEB_APP.Entities;
 using AD2_WEB_APP.Helpers;
 using AD2_WEB_APP.Models.ComputerModel;
+using AD2_WEB_APP.Services;
 
 
 public interface IComputerModelService
@@ -11,6 +12,7 @@ public interface IComputerModelService
 
     List<GetRequestComputerModel> GetAll();
     ComputerModel GetById(int id);
+    GetRequestComputerModel GetComputerById(int id);
     ComputerModel Create(CreateRequestComputerModel model);
     void Delete(int id);
 }
@@ -20,7 +22,7 @@ public class ComputerModelService : IComputerModelService
     private DataContext _context;
     private readonly IMapper _mapper;
     public readonly IConfiguration configuration;
-
+    public Series series { get; set; }
     public ComputerModelService(
         DataContext context,
         IConfiguration Configuration,
@@ -74,6 +76,32 @@ public class ComputerModelService : IComputerModelService
         try
         {
             return GetComputerModel(id);
+        }
+        catch (System.Exception)
+        {
+
+            throw;
+        }
+
+    }
+
+    public GetRequestComputerModel GetComputerById(int id)
+    {
+        try
+        {
+            GetRequestComputerModel computer=new GetRequestComputerModel();
+            var com= GetComputerModel(id);
+          
+            if (com==null)
+            {
+                throw new KeyNotFoundException("Model not found");
+         
+            }
+            
+                computer.Id=com.Id;
+                computer.Model_Name=com.Model_Name;
+                return computer;
+           
         }
         catch (System.Exception)
         {
