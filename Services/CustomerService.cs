@@ -4,16 +4,23 @@ using AutoMapper;
 using AD2_WEB_APP.Entities;
 using AD2_WEB_APP.Helpers;
 using AD2_WEB_APP.Models.Customer;
+using AD2_WEB_APP.Models.Users;
 using AD2_WEB_APP.Models.Address;
+using BCrypt.Net;
+using AD2_WEB_APP.Models.Common;
+using System.IdentityModel.Tokens.Jwt;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using System.Security.Claims;
 
 
 public interface ICustomerService
 {
+    public string Authenticate(CustomerLogin model);
 
     IEnumerable<Customer> GetAll();
     Customer GetById(int id);
-    Customer GetByUserId(int id);
-    void Create(CreateRequestCustomer model, string userId);
+    void Create(CreateRequestCustomer model);
     void Delete(int id);
 }
 
@@ -71,22 +78,46 @@ public class CustomerService : ICustomerService
 
     }
 
-    public Customer GetByUserId(int id)
+
+
+    public string Authenticate(CustomerLogin model)
     {
         try
         {
-            return getCustomerByUserId(id);
+            var user = _context.Customers.SingleOrDefault(x => x.Email == model.Email);
+
+            // validate
+            if (user == null || !BCrypt.Verify(model.Password, user.Password))
+                throw new AppException("Email or password is incorrect !");
+
+            var tokenHandler = new JwtSecurityTokenHandler();
+            var key = Encoding.ASCII.GetBytes(configuration["JWT:SecretKey"]);
+
+            var tokenDescriptor = new SecurityTokenDescriptor
+            {
+                Subject = new ClaimsIdentity(new Claim[]
+                {
+
+                    new Claim("UserId", user.Id.ToString()),
+                }),
+                IssuedAt = DateTime.UtcNow,
+                Expires = DateTime.UtcNow.AddMinutes(30),
+                SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature),
+            };
+
+            var token = tokenHandler.CreateToken(tokenDescriptor);
+
+            return token.ToString();
         }
         catch (System.Exception)
         {
 
             throw;
         }
-
     }
 
 
-    public void Create(CreateRequestCustomer model, string userId)
+    public void Create(CreateRequestCustomer model)
     {
         try
         {
@@ -118,13 +149,15 @@ public class CustomerService : ICustomerService
             // map model to new customer object
             CreateCustomer customerModel = new CreateCustomer();
 
-            customerModel.UserId = Convert.ToInt32(userId);
             customerModel.FirstName = model.FirstName;
             customerModel.LastName = model.LastName; // Set LastName instead of FirstName
             customerModel.Email = model.Email;
             customerModel.Phone_Number = model.Phone_Number;
             customerModel.Billing_Address_ID = _address_billing.Id;
             customerModel.Shipping_Address_ID = _address_shipping.Id;
+
+            // hash password
+            customerModel.Password = BCrypt.HashPassword(model.Password);
 
             var customer = _mapper.Map<Customer>(customerModel);
 
@@ -177,19 +210,5 @@ public class CustomerService : ICustomerService
 
     }
 
-    private Customer getCustomerByUserId(int id)
-    {
-        try
-        {
-            var customer = _context.Customers.Where(a => a.UserId == id).ToList()[0];
-            if (customer == null) throw new KeyNotFoundException("Customer not found");
-            return customer;
-        }
-        catch (System.Exception)
-        {
 
-            throw;
-        }
-
-    }
 }

@@ -57,7 +57,7 @@ public class CustomersController : Controller
 
             if (_commonService.IsValid(tokenValue))
             {
-                _customerService.Create(model, tokenValue);
+                _customerService.Create(model);
                 return Ok(new { message = "Customer created" });
             }
             else

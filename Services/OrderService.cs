@@ -73,7 +73,7 @@ public class OrderService : IOrderService
     {
         try
         {
-            Customer customer = _customerService.GetByUserId(Convert.ToInt32(userId));
+            Customer customer = _customerService.GetById(Convert.ToInt32(userId));
 
             // map model to new order object
             var order = _mapper.Map<Order>(model);
