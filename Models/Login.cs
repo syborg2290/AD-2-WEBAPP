@@ -1,0 +1,21 @@
+namespace AD2_WEB_APP.Models;
+
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
+
+public class Login
+{
+
+    [Required]
+    [DataType(DataType.EmailAddress)]
+
+    public string Email { get; set; }
+
+    [Required]
+    [DataType(DataType.Password)]
+    public string Password { get; set; }
+
+    public bool RememberMe { get; set; }
+
+
+}

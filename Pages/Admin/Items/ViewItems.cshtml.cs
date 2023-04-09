@@ -4,9 +4,11 @@ using AD2_WEB_APP.Entities;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using AD2_WEB_APP.Services;
 using AD2_WEB_APP.Models.Item;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AD2_WEB_APP.Pages.Admin;
 
+[Authorize]
 public class ViewItemsModel : PageModel
 {
     private readonly ILogger<ViewItemsModel> _logger;

@@ -2,9 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using AD2_WEB_APP.Services;
 using AD2_WEB_APP.Models.ComputerModel;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AD2_WEB_APP.Pages.Admin;
 
+[Authorize]
 public class ComputersModel : PageModel
 {
     private readonly ILogger<ComputersModel> _logger;

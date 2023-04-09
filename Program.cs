@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +17,44 @@ var builder = WebApplication.CreateBuilder(args);
 
 
     services.AddDbContext<DataContext>();
+
+    services.AddIdentity<ApplicationUser, IdentityRole>()
+    .AddEntityFrameworkStores<DataContext>()
+    .AddDefaultTokenProviders();
+    services.ConfigureApplicationCookie(config =>
+    {
+        config.LoginPath = "/Admin/Auth/Login";
+    });
+
+    services.AddScoped<UserManager<ApplicationUser>>();
+    services.AddScoped<SignInManager<ApplicationUser>>();
+
+    services.Configure<IdentityOptions>(options =>
+    {
+        // Password settings
+        options.Password.RequireDigit = true;
+        options.Password.RequiredLength = 8;
+        options.Password.RequireNonAlphanumeric = false;
+        options.Password.RequireUppercase = true;
+        options.Password.RequireLowercase = false;
+
+        // Lockout settings
+        options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(30);
+        options.Lockout.MaxFailedAccessAttempts = 5;
+        options.Lockout.AllowedForNewUsers = true;
+
+        // User settings
+        options.User.RequireUniqueEmail = true;
+    });
+
+    services.ConfigureApplicationCookie(options =>
+    {
+        // Cookie settings
+        options.Cookie.HttpOnly = true;
+        options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
+        options.SlidingExpiration = true;
+    });
+
     services.AddCors();
     services.AddSwaggerGen();
     services.AddControllers().AddJsonOptions(x =>
@@ -27,6 +66,7 @@ var builder = WebApplication.CreateBuilder(args);
         x.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull;
     });
     services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
 
     // configure DI for application services
     services.AddScoped<IUserService, UserService>();
@@ -42,23 +82,6 @@ var builder = WebApplication.CreateBuilder(args);
     services.AddScoped<IPaymentService, PaymentService>();
     services.AddScoped<ISeriesService, SeriesService>();
 
-    builder.Services.AddAuthentication(opt =>
-{
-    opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
-    opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
-})
-.AddJwtBearer(opt =>
-{
-    opt.RequireHttpsMetadata = false; // for development only
-    opt.SaveToken = true;
-    opt.TokenValidationParameters = new TokenValidationParameters
-    {
-        ValidateIssuerSigningKey = true,
-        IssuerSigningKey = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(builder.Configuration["JWT:SecretKey"])),
-        ValidateIssuer = false,
-        ValidateAudience = false,
-    };
-});
 }
 
 // Add services to the container.
@@ -82,6 +105,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
+app.UseDefaultFiles();
 
 app.UseRouting();
 

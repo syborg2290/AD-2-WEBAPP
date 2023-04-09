@@ -1,9 +1,11 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using AD2_WEB_APP.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace AD2_WEB_APP.Pages.Admin;
 
+[Authorize]
 public class CategoryModel : PageModel
 {
     private readonly ILogger<CategoryModel> _logger;

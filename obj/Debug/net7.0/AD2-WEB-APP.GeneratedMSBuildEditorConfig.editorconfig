@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/Pages/Admin/Auth/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vQXV0aC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/Pages/Admin/Auth/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vQXV0aC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/Pages/Admin/Category/Category.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vQ2F0ZWdvcnkvQ2F0ZWdvcnkuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -68,6 +76,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/Pages/Cart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/Pages/Checkout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2hlY2tvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,6 +102,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/Pages/Shop.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hvcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/Pages/Single-product.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2luZ2xlLXByb2R1Y3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/Pages/_ViewImports.cshtml]

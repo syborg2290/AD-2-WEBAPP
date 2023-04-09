@@ -12,6 +12,9 @@ public class GetWithoutCatRequestItem
     public string Name { get; set; }
 
     [Required]
+    public string ImagePath { get; set; }
+
+    [Required]
     public List<Configuration> Configuration { get; set; }
 
 

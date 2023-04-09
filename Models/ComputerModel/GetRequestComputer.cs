@@ -10,6 +10,9 @@ public class GetRequestComputerModel
 
     [Required]
     public string Model_Name { get; set; }
+
+    [Required]
+    public string ImagePath { get; set; }
     
     [Required]
     public List<Series> Series { get; set; }
