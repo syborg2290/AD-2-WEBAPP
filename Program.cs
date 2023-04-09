@@ -54,7 +54,7 @@ var builder = WebApplication.CreateBuilder(args);
         options.ExpireTimeSpan = TimeSpan.FromMinutes(30);
         options.SlidingExpiration = true;
     });
-
+    services.AddSession(); // After AddMvc()
     services.AddCors();
     services.AddSwaggerGen();
     services.AddControllers().AddJsonOptions(x =>
@@ -111,7 +111,7 @@ app.UseRouting();
 
 app.UseAuthentication();
 app.UseAuthorization();
-
+app.UseSession();  // Before UseMvc()
 app.MapRazorPages();
 
 app.Run();
