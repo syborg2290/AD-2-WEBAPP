@@ -33,11 +33,11 @@ public class ConfigurationsModel : PageModel
     [TempData]
     public string Type { get; set; }
 
-    
+
     public void OnGet()
     {
         categories = _categoryService.GetAll();
-        
+
     }
 
     public IActionResult OnPost()
@@ -45,8 +45,9 @@ public class ConfigurationsModel : PageModel
         try
         {
             var data = configuration;
-            data.Price =  Convert.ToDouble(data.Price);
-            data.ComparePrice =  Convert.ToDouble(data.ComparePrice);
+            data.Price = Convert.ToDouble(data.Price);
+            data.ComparePrice = Convert.ToDouble(data.ComparePrice);
+            data.Description = "";
 
 
             _configurationService.Create(data);

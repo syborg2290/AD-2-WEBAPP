@@ -89,19 +89,19 @@ public class ComputerModelService : IComputerModelService
     {
         try
         {
-            GetRequestComputerModel computer=new GetRequestComputerModel();
-            var com= GetComputerModel(id);
-          
-            if (com==null)
+            GetRequestComputerModel computer = new GetRequestComputerModel();
+            var com = GetComputerModel(id);
+
+            if (com == null)
             {
                 throw new KeyNotFoundException("Model not found");
-         
+
             }
-            
-                computer.Id=com.Id;
-                computer.Model_Name=com.Model_Name;
-                return computer;
-           
+
+            computer.Id = com.Id;
+            computer.Model_Name = com.Model_Name;
+            return computer;
+
         }
         catch (System.Exception)
         {
@@ -115,6 +115,7 @@ public class ComputerModelService : IComputerModelService
     {
         try
         {
+
             // map model to new category object
             var computermodel = _mapper.Map<ComputerModel>(model);
 

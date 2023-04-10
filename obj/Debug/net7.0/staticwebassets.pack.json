@@ -233,10 +233,6 @@
       "PackagePath": "staticwebassets/home/style.css"
     },
     {
-      "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/images/FB_IMG_1680450554943.jpg",
-      "PackagePath": "staticwebassets/images/FB_IMG_1680450554943.jpg"
-    },
-    {
       "Id": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
