@@ -67,14 +67,19 @@ public class ConfigurationService : IConfigurationService
         try
         {
             var configuration = _mapper.Map<Configuration>(model);
-
+          
+            // Console.WriteLine(configuration.Name);
+            // Console.WriteLine(configuration.CategoryId);
+            // Console.WriteLine(configuration.Price);
+            // Console.WriteLine(configuration.ComparePrice);
 
             _context.ItemConfiguration.Add(configuration);
             _context.SaveChanges();
             return configuration;
         }
-        catch (System.Exception)
+        catch (System.Exception e) 
         {
+            Console.WriteLine(e.Message);
 
             throw;
         }

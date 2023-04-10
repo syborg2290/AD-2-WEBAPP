@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ztGqEJMFoeFjiVQ2EFA0mcqxaykycnA2XXT5JGogmik=",
+  "Hash": "oGer+W3Q1nzzNFQpXdJ68TZM6yQJIhHoKU8/xbb+ekA=",
   "Source": "AD2-WEB-APP",
   "BasePath": "_content/AD2-WEB-APP",
   "Mode": "Default",
@@ -1018,23 +1018,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/home/style.css"
-    },
-    {
-      "Identity": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/images/FB_IMG_1680450554943.jpg",
-      "SourceId": "AD2-WEB-APP",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/",
-      "BasePath": "_content/AD2-WEB-APP",
-      "RelativePath": "images/FB_IMG_1680450554943.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/images/FB_IMG_1680450554943.jpg"
     },
     {
       "Identity": "/home/kasun-webmotech/Desktop/esoft/AD-2-WEBAPP/wwwroot/js/site.js",

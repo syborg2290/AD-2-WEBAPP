@@ -3,11 +3,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using AD2_WEB_APP.Services;
 using AD2_WEB_APP.Models;
+using System.Diagnostics;
 using System.IO;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Authorization;
+
 
 namespace AD2_WEB_APP.Pages.Admin;
 
@@ -64,6 +66,7 @@ public class NewComputersModel : PageModel
     {
         try
         {
+            
             if (UploadedFile == null || UploadedFile.Length == 0)
             {
                 return;
