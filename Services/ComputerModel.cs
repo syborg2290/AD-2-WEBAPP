@@ -46,6 +46,7 @@ public class ComputerModelService : IComputerModelService
                 {
                     Id = p.Id,
                     Model_Name = p.Model_Name,
+                    ImagePath = p.ImagePath,
                     Configuration = _context.ItemConfiguration.Where(t => t.Id == p.Default_Configuration_ID).ToList(),
                     Series = _context.Series.Where(t => t.Id == p.SeriesId).ToList(),
                 }).ToList();
@@ -56,6 +57,7 @@ public class ComputerModelService : IComputerModelService
            {
                Id = each.Id,
                Model_Name = each.Model_Name,
+               ImagePath = each.ImagePath,
                Configuration = each.Configuration,
                Series = each.Series,
                Category = _context.Category.Where(t => t.Id == each.Configuration[0].CategoryId).ToList()
