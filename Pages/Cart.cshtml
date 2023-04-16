@@ -124,7 +124,7 @@
                 <div class="col-md-8">
                     <div class="product-content-right">
                         <div class="woocommerce">
-                            <form method="post" action="#">
+                            <form method="get" action="/Checkout">
                                 <table cellspacing="0" class="shop_table cart">
                                     <thead>
                                         <tr>
@@ -138,15 +138,17 @@
                                     </thead>
                                     <tbody>
                                          @foreach (var item in Model.cartList)
+                                         
                                         {
-                                            @if(@Model.cartList.IndexOf(item)%2==1){
+                                          
                                             <tr class="cart_item">
                                             <td class="product-remove">
                                                 <a title="Remove this item" class="remove" href="#">×</a> 
                                             </td>
 
                                             <td class="product-thumbnail">
-                                                <a href="single-product.html"><img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="~/home/img/product-thumb-2.jpg"></a>
+                                                <a href="single-product.html">
+                                                    <img width="145" height="145" alt="poster_1_up" class="shop_thumbnail" src="~/home/img/product-thumb-2.jpg"></a>
                                             </td>
 
                                             <td class="product-name">
@@ -155,21 +157,22 @@
 
                                             <td class="product-price">
                                                 <span class="amount">LKR @item.00</span> 
+                                                <span>@item</span>
                                             </td>
 
                                             <td class="product-quantity">
                                                 <div class="quantity buttons_added">
                                                     <input type="button" class="minus" value="-">
                                                     <input type="number" size="4" class="input-text qty text" title="Qty" value="1" min="0" step="1">
-                                                    <input type="button" class="plus" value="+">
+                                                    <input type="button" onclick="getValue(@item,2)" class="plus" value="+">
                                                 </div>
                                             </td>
 
                                             <td class="product-subtotal">
-                                                <span class="amount">LKR @item.00</span> 
+                                                <span class="amount" id="@Model.cartList.IndexOf(item)">LKR @item.00</span> 
                                             </td>
                                         </tr>
-                                            }
+                                            
                                             
                                         }
                                         
@@ -181,8 +184,9 @@
                                                     <input type="text" placeholder="Coupon code" value="" id="coupon_code" class="input-text" name="coupon_code">
                                                     <input type="submit" value="Apply Coupon" name="apply_coupon" class="button">
                                                 </div>
-                                                <input type="submit" value="Update Cart" name="update_cart" class="button">
                                                 <input type="submit" value="Checkout" name="proceed" class="checkout-button button alt wc-forward">
+                                                
+                                                @* <input type="submit" value="Checkout" name="proceed" class="checkout-button button alt wc-forward"> *@
                                             </td>
                                         </tr>
                                     </tbody>
@@ -202,7 +206,7 @@
                                     <tbody>
                                         <tr class="cart-subtotal">
                                             <th>Cart Subtotal</th>
-                                            <td><span class="amount">LKR 15.00</span></td>
+                                            <td><span class="amount">LKR @Model.amount.00</span></td>
                                         </tr>
 
                                         <tr class="shipping">
@@ -212,7 +216,7 @@
 
                                         <tr class="order-total">
                                             <th>Order Total</th>
-                                            <td><strong><span class="amount">LKR 15.00</span></strong> </td>
+                                            <td><strong><span class="amount">LKR @Model.amount.00</span></strong> </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -573,4 +577,13 @@
             </div>
         </div>
     </div> <!-- End footer bottom area -->
-   
+ @section Scripts
+{
+   <script>
+    function getValue(price,count){
+        console.log(price);
+        console.log(count);
+    }
+    </script>
+}
+  
