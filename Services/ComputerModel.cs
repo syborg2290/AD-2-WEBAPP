@@ -102,6 +102,7 @@ public class ComputerModelService : IComputerModelService
             
                 computer.Id=com.Id;
                 computer.Model_Name=com.Model_Name;
+                computer.ImagePath=com.ImagePath;
                 return computer;
            
         }
